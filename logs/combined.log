@@ -3962,3 +3962,14 @@
 [2026-04-25 13:31:49] INFO: [Socket] Disconnected: a7f8f1a1-12fb-40bf-9d60-41840f890fd0
 [2026-04-25 13:31:58] INFO: [Socket] Connected: a7f8f1a1-12fb-40bf-9d60-41840f890fd0
 [2026-04-25 13:58:37] INFO: [Socket] Disconnected: a7f8f1a1-12fb-40bf-9d60-41840f890fd0
+[2026-04-25 14:04:32] INFO: [DB] Sequelize connected to MySQL
+[2026-04-25 14:04:32] INFO: [Migration] Already applied: drop ratings_ibfk_1
+[2026-04-25 14:04:32] INFO: [Migration] Already applied: drop ratings_ibfk_2
+[2026-04-25 14:04:32] INFO: [Migration] Already applied: drop pm_ibfk_1
+[2026-04-25 14:04:32] INFO: [Migration] Already applied: drop pm_ibfk_2
+[2026-04-25 14:04:32] INFO: [Migration] OK: ratings.rated_id nullable
+[2026-04-25 14:04:32] WARN: [Migration] Skipped "groups.status": Duplicate column name 'status'
+[2026-04-25 14:04:32] WARN: [Migration] Skipped "groups.is_active": Duplicate column name 'is_active'
+[2026-04-25 14:04:32] INFO: [DB] All tables synced
+[2026-04-25 14:04:32] INFO: [DB] app_content seeded
+[2026-04-25 14:04:32] INFO: Wisber backend running on port 3000
