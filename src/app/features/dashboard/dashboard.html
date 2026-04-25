@@ -1,0 +1,33 @@
+<app-topbar title="Dashboard" subtitle="Wisber overview" />
+
+@if (loading()) { <div class="loading-wrap"><div class="spinner"></div></div> }
+@else if (error()) { <div class="alert alert-error">{{ error() }}</div> }
+@else if (stats()) {
+  <div class="grid">
+    <app-stat-card label="Total Users"     [value]="stats()!.users.total"    icon="👥" color="#2563eb" />
+    <app-stat-card label="Online Now"      [value]="stats()!.users.online"   icon="🟢" color="#16a34a" />
+    <app-stat-card label="Pending Reports" [value]="stats()!.reports.pending" icon="🚨" color="#dc2626" />
+    <app-stat-card label="Total Ratings"   [value]="stats()!.ratings.total"  icon="⭐" color="#d97706"
+                   [sub]="'Avg: ' + stats()!.ratings.average + ' / 5'" />
+  </div>
+
+  @if (stats()!.recentUsers.length) {
+    <div class="card" style="margin-top:28px">
+      <div style="font-weight:600;font-size:15px;margin-bottom:14px">Recent Sign-ups</div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Name</th><th>Phone</th><th>Joined</th></tr></thead>
+          <tbody>
+            @for (u of stats()!.recentUsers; track u.id) {
+              <tr>
+                <td>{{ u.name }}</td>
+                <td>{{ u.phone }}</td>
+                <td>{{ u.created_at | timeAgo }}</td>
+              </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+    </div>
+  }
+}

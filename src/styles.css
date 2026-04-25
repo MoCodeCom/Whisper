@@ -1,1 +1,90 @@
-/* You can add global styles to this file, and also import other style files */
+/* ── Global CSS Variables ────────────────────────────────────────────── */
+:root {
+  --primary:        #2563eb;
+  --primary-dark:   #1d4ed8;
+  --primary-light:  #dbeafe;
+  --sidebar-bg:     #0f172a;
+  --sidebar-hover:  #1e293b;
+  --sidebar-active: #2563eb;
+  --sidebar-text:   #94a3b8;
+  --sidebar-text-active: #ffffff;
+  --bg:             #f1f5f9;
+  --surface:        #ffffff;
+  --border:         #e2e8f0;
+  --text:           #1e293b;
+  --text-light:     #64748b;
+  --success:        #16a34a;
+  --success-bg:     #dcfce7;
+  --warning:        #d97706;
+  --warning-bg:     #fef3c7;
+  --danger:         #dc2626;
+  --danger-bg:      #fee2e2;
+  --info:           #0891b2;
+  --info-bg:        #cffafe;
+  --radius:         8px;
+  --radius-lg:      12px;
+  --shadow:         0 1px 3px rgba(0,0,0,0.08);
+  --shadow-md:      0 4px 6px rgba(0,0,0,0.07);
+  --topbar-h:       64px;
+  --sidebar-w:      240px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html,body{height:100%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:14px;color:var(--text);background:var(--bg);-webkit-font-smoothing:antialiased;}
+a{color:inherit;text-decoration:none;}
+button{cursor:pointer;font-family:inherit;}
+input,textarea,select{font-family:inherit;font-size:14px;}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:8px 16px;border-radius:var(--radius);border:none;font-size:14px;font-weight:500;cursor:pointer;transition:background 0.15s,opacity 0.15s;}
+.btn:disabled{opacity:.55;cursor:not-allowed;}
+.btn-primary{background:var(--primary);color:#fff;}
+.btn-primary:hover:not(:disabled){background:var(--primary-dark);}
+.btn-danger{background:var(--danger);color:#fff;}
+.btn-danger:hover:not(:disabled){background:#b91c1c;}
+.btn-success{background:var(--success);color:#fff;}
+.btn-success:hover:not(:disabled){background:#15803d;}
+.btn-ghost{background:transparent;color:var(--text-light);border:1px solid var(--border);}
+.btn-ghost:hover:not(:disabled){background:var(--bg);}
+.btn-sm{padding:5px 10px;font-size:12px;}
+.btn-lg{padding:11px 22px;font-size:15px;}
+.card{background:var(--surface);border-radius:var(--radius-lg);border:1px solid var(--border);box-shadow:var(--shadow);padding:24px;}
+.page-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px;}
+.page-title{font-size:22px;font-weight:700;color:var(--text);}
+.page-subtitle{font-size:13px;color:var(--text-light);margin-top:2px;}
+.table-wrap{overflow-x:auto;border-radius:var(--radius-lg);border:1px solid var(--border);background:var(--surface);box-shadow:var(--shadow);}
+table{width:100%;border-collapse:collapse;font-size:13.5px;}
+thead th{padding:11px 16px;text-align:left;font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--text-light);background:var(--bg);border-bottom:1px solid var(--border);}
+tbody tr{border-bottom:1px solid var(--border);transition:background 0.1s;}
+tbody tr:last-child{border-bottom:none;}
+tbody tr:hover{background:#f8fafc;}
+td{padding:12px 16px;color:var(--text);vertical-align:middle;}
+.form-group{display:flex;flex-direction:column;gap:6px;}
+.form-label{font-size:13px;font-weight:500;color:var(--text);}
+.form-control{width:100%;padding:9px 12px;border:1px solid var(--border);border-radius:var(--radius);font-size:14px;color:var(--text);background:var(--surface);outline:none;transition:border-color 0.15s,box-shadow 0.15s;}
+.form-control:focus{border-color:var(--primary);box-shadow:0 0 0 3px var(--primary-light);}
+textarea.form-control{resize:vertical;min-height:120px;}
+.spinner{width:36px;height:36px;border:3px solid var(--border);border-top-color:var(--primary);border-radius:50%;animation:spin .7s linear infinite;margin:40px auto;}
+@keyframes spin{to{transform:rotate(360deg);}}
+.loading-wrap{display:flex;justify-content:center;padding:48px 0;}
+.empty-state{text-align:center;padding:56px 24px;color:var(--text-light);}
+.empty-state p{font-size:14px;}
+.alert{padding:12px 16px;border-radius:var(--radius);font-size:13.5px;margin-bottom:16px;}
+.alert-error{background:var(--danger-bg);color:var(--danger);border:1px solid #fca5a5;}
+.alert-success{background:var(--success-bg);color:var(--success);border:1px solid #86efac;}
+.pagination{display:flex;align-items:center;justify-content:flex-end;gap:6px;padding:14px 16px;border-top:1px solid var(--border);}
+.page-info{font-size:13px;color:var(--text-light);margin-right:8px;}
+.search-bar{position:relative;}
+.search-bar input{padding-left:36px;min-width:240px;}
+.search-icon{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--text-light);pointer-events:none;}
+::-webkit-scrollbar{width:6px;height:6px;}
+::-webkit-scrollbar-track{background:transparent;}
+::-webkit-scrollbar-thumb{background:#cbd5e1;border-radius:3px;}
+::-webkit-scrollbar-thumb:hover{background:#94a3b8;}
+/* ── Modal ──────────────────────────────────────────────────────────── */
+.modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,0.45);z-index:200;}
+.modal-box{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);z-index:201;background:var(--surface);border-radius:var(--radius-lg);border:1px solid var(--border);box-shadow:0 20px 40px rgba(0,0,0,0.15);width:100%;max-width:460px;display:flex;flex-direction:column;gap:16px;padding:24px;}
+.modal-header{display:flex;align-items:center;justify-content:space-between;}
+.modal-title{font-size:17px;font-weight:700;color:var(--text);}
+.modal-footer{display:flex;justify-content:flex-end;gap:10px;padding-top:4px;}
+/* ── Group / user header row ─────────────────────────────────────────── */
+.gh{display:flex;align-items:center;gap:12px;}
+/* ── Avatar ──────────────────────────────────────────────────────────── */
+.avatar{width:36px;height:36px;border-radius:50%;background:var(--primary-light);color:var(--primary);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;flex-shrink:0;}

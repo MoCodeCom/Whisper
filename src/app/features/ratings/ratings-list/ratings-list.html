@@ -1,0 +1,81 @@
+<app-topbar title="App Ratings" [subtitle]="total() + ' total'" />
+
+@if (error()) { <div class="alert alert-error">{{ error() }}</div> }
+
+@if (loading()) {
+  <div class="loading-wrap"><div class="spinner"></div></div>
+} @else {
+  @if (ratings().length === 0) {
+    <div class="card" style="text-align:center;padding:48px 24px;color:var(--text-light)">
+      <div style="font-size:40px;margin-bottom:12px">⭐</div>
+      <div style="font-size:16px;font-weight:600;margin-bottom:6px">No ratings yet</div>
+      <div style="font-size:13px">Users can rate the app from the <strong>You</strong> tab in the mobile app.</div>
+    </div>
+  } @else {
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>User</th>
+            <th>Phone</th>
+            <th>Type</th>
+            <th>Score</th>
+            <th>Comment</th>
+            <th>Date</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (r of ratings(); track r.id) {
+            <tr>
+              <td>
+                <div style="display:flex;align-items:center;gap:10px">
+                  <div class="avatar">{{ (r.rater?.name || r.rater_id || '?')[0].toUpperCase() }}</div>
+                  <div>
+                    <div>{{ r.rater?.name || '—' }}</div>
+                    <div style="font-size:11px;color:var(--text-light)">{{ r.rater_id }}</div>
+                  </div>
+                </div>
+              </td>
+              <td style="color:var(--text-light)">{{ r.rater?.phone || '—' }}</td>
+              <td>
+                @if (r.rated_id) {
+                  <span style="font-size:12px;padding:2px 8px;border-radius:4px;background:var(--info-bg);color:var(--info)">User</span>
+                } @else {
+                  <span style="font-size:12px;padding:2px 8px;border-radius:4px;background:var(--warning-bg);color:var(--warning)">App</span>
+                }
+              </td>
+              <td>
+                <span style="color:#f59e0b;letter-spacing:1px;font-size:15px">{{ stars(r.score) }}</span>
+                <span style="color:var(--text-light);font-size:12px;margin-left:4px">({{ r.score }}/5)</span>
+              </td>
+              <td style="max-width:240px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">
+                {{ r.comment || '—' }}
+              </td>
+              <td style="white-space:nowrap;color:var(--text-light)">{{ r.updated_at | timeAgo }}</td>
+              <td>
+                <button class="btn btn-ghost btn-sm" style="color:var(--danger)" (click)="askDelete(r.id)">Delete</button>
+              </td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Pagination -->
+    @if (pages > 1) {
+      <div class="pagination">
+        <button class="btn btn-ghost btn-sm" [disabled]="page() === 1" (click)="prev()">&#8592; Prev</button>
+        <span style="color:var(--text-light);font-size:13px">Page {{ page() }} of {{ pages }}</span>
+        <button class="btn btn-ghost btn-sm" [disabled]="page() === pages" (click)="next()">Next &#8594;</button>
+      </div>
+    }
+  }
+}
+
+@if (confirmId()) {
+  <app-confirm-dialog
+    message="Delete this rating permanently?"
+    (confirm)="doDelete()"
+    (cancel)="cancelDelete()" />
+}

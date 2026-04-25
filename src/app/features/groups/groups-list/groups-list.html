@@ -1,0 +1,68 @@
+<app-topbar title="Groups" [subtitle]="total() + ' total'" />
+
+<div class="page-header">
+  <div>
+    <div class="page-title">Groups</div>
+    <div class="page-subtitle">Manage all groups</div>
+  </div>
+</div>
+
+@if (error()) { <div class="alert alert-error">{{ error() }}</div> }
+
+<div class="toolbar">
+  <div class="search-bar">
+    <span class="search-icon">🔍</span>
+    <input class="form-control" placeholder="Search by group name..."
+           [ngModel]="search()" (ngModelChange)="search.set($event)" (keyup.enter)="onSearch()" />
+  </div>
+  <button class="btn btn-primary" (click)="onSearch()">Search</button>
+</div>
+
+@if (loading()) { <div class="loading-wrap"><div class="spinner"></div></div> }
+@else {
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Group</th><th>Status</th><th>Active</th><th>Members</th><th>Created</th><th>Actions</th></tr>
+      </thead>
+      <tbody>
+        @for (g of groups(); track g.id) {
+          <tr>
+            <td><div class="cell"><div class="avatar">{{ g.name[0].toUpperCase() }}</div>{{ g.name }}</div></td>
+            <td style="max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ g.status }}</td>
+            <td><app-badge [variant]="statusBadge(g)">{{ g.is_active ? 'Active' : 'Banned' }}</app-badge></td>
+            <td>{{ g.members.length }}</td>
+            <td>{{ g.created_at | timeAgo }}</td>
+            <td>
+              <div class="actions">
+                <a class="btn btn-sm btn-ghost" [routerLink]="['/groups', g.id]">View</a>
+                @if (g.is_active) {
+                  <button class="btn btn-sm btn-ghost" (click)="ask('ban', g)">Ban</button>
+                } @else {
+                  <button class="btn btn-sm btn-success" (click)="ask('unban', g)">Unban</button>
+                }
+                <button class="btn btn-sm btn-danger" (click)="ask('delete', g)">Delete</button>
+              </div>
+            </td>
+          </tr>
+        } @empty {
+          <tr><td colspan="6"><div class="empty-state"><p>No groups found.</p></div></td></tr>
+        }
+      </tbody>
+    </table>
+    <div class="pagination">
+      <span class="page-info">{{ groups().length }} of {{ total() }}</span>
+      <button class="btn btn-sm btn-ghost" [disabled]="page() === 1" (click)="prev()">&#8249; Prev</button>
+      <span style="font-size:13px;color:var(--text-light)">{{ page() }} / {{ pages }}</span>
+      <button class="btn btn-sm btn-ghost" [disabled]="page() >= pages" (click)="next()">Next &#8250;</button>
+    </div>
+  </div>
+}
+
+@if (confirm()) {
+  <app-confirm-dialog
+    [title]="confirm()!.action === 'delete' ? 'Delete Group' : confirm()!.action === 'ban' ? 'Ban Group' : 'Unban Group'"
+    [message]="'Are you sure you want to ' + confirm()!.action + ' ' + confirm()!.group.name + '?'"
+    [danger]="confirm()!.action !== 'unban'"
+    (confirm)="doConfirm()" (cancel)="cancelConfirm()" />
+}

@@ -1,0 +1,8 @@
+<div class="stat-card">
+  <div class="stat-icon" [style.background]="color() + '18'" [style.color]="color()">{{ icon() }}</div>
+  <div class="stat-body">
+    <div class="stat-value">{{ value() }}</div>
+    <div class="stat-label">{{ label() }}</div>
+    @if (sub()) { <div class="stat-sub">{{ sub() }}</div> }
+  </div>
+</div>

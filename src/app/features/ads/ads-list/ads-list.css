@@ -1,0 +1,3 @@
+.cell    { display:flex;align-items:center;gap:10px; }
+.thumb   { width:48px;height:36px;object-fit:cover;border-radius:4px;flex-shrink:0; }
+.actions { display:flex;gap:6px; }

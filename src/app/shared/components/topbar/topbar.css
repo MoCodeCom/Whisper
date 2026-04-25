@@ -1,0 +1,10 @@
+.topbar {
+  position:fixed;top:0;left:var(--sidebar-w);right:0;height:var(--topbar-h);
+  background:var(--surface);border-bottom:1px solid var(--border);
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 28px;z-index:90;box-shadow:var(--shadow);
+}
+.left  { display:flex;align-items:baseline;gap:12px; }
+.ttitle{ font-size:18px;font-weight:700;color:var(--text); }
+.tsub  { font-size:13px;color:var(--text-light); }
+.tdate { font-size:13px;color:var(--text-light); }

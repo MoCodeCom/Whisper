@@ -1,0 +1,6 @@
+:host { display:flex;height:100%; }
+.main {
+  margin-left:var(--sidebar-w);min-height:100vh;width:100%;
+  background:var(--bg);padding:calc(var(--topbar-h) + 28px) 28px 28px;
+  overflow-y:auto;
+}

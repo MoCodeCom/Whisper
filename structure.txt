@@ -1,0 +1,134 @@
+wisber-panel/
+│
+├── src/
+│   ├── app/
+│   │
+│   │   ── core/                          # Singleton services & infrastructure
+│   │   │   ├── models/
+│   │   │   │   ├── user.model.ts
+│   │   │   │   ├── group.model.ts
+│   │   │   │   ├── report.model.ts
+│   │   │   │   ├── ad.model.ts
+│   │   │   │   ├── rating.model.ts
+│   │   │   │   └── app-content.model.ts
+│   │   │   │
+│   │   │   ├── services/
+│   │   │   │   ├── api.service.ts         # base HTTP + auth header injection
+│   │   │   │   ├── auth.service.ts        # login, logout, token storage
+│   │   │   │   ├── users.service.ts
+│   │   │   │   ├── groups.service.ts
+│   │   │   │   ├── reports.service.ts
+│   │   │   │   ├── ads.service.ts
+│   │   │   │   ├── ratings.service.ts
+│   │   │   │   └── app-content.service.ts
+│   │   │   │
+│   │   │   ├── guards/
+│   │   │   │   └── auth.guard.ts          # redirect to /login if no token
+│   │   │   │
+│   │   │   └── interceptors/
+│   │   │       └── auth.interceptor.ts    # attach Bearer token to every request
+│   │   │
+│   │   ├── shared/                        # Reusable UI components
+│   │   │   ├── components/
+│   │   │   │   ├── sidebar/
+│   │   │   │   │   ├── sidebar.component.ts
+│   │   │   │   │   ├── sidebar.component.html
+│   │   │   │   │   └── sidebar.component.scss
+│   │   │   │   │
+│   │   │   │   ├── topbar/
+│   │   │   │   │   ├── topbar.component.ts
+│   │   │   │   │   ├── topbar.component.html
+│   │   │   │   │   └── topbar.component.scss
+│   │   │   │   │
+│   │   │   │   ├── stat-card/             # dashboard number cards
+│   │   │   │   │   ├── stat-card.component.ts
+│   │   │   │   │   └── stat-card.component.html
+│   │   │   │   │
+│   │   │   │   ├── confirm-dialog/        # "Are you sure?" modal
+│   │   │   │   │   ├── confirm-dialog.component.ts
+│   │   │   │   │   └── confirm-dialog.component.html
+│   │   │   │   │
+│   │   │   │   └── badge/                 # status badge (pending/reviewed…)
+│   │   │   │       └── badge.component.ts
+│   │   │   │
+│   │   │   └── pipes/
+│   │   │       └── time-ago.pipe.ts
+│   │   │
+│   │   ├── layout/                        # Shell component (sidebar + topbar + router-outlet)
+│   │   │   ├── layout.component.ts
+│   │   │   ├── layout.component.html
+│   │   │   └── layout.component.scss
+│   │   │
+│   │   ├── features/
+│   │   │   │
+│   │   │   ├── auth/
+│   │   │   │   └── login/
+│   │   │   │       ├── login.component.ts
+│   │   │   │       ├── login.component.html
+│   │   │   │       └── login.component.scss
+│   │   │   │
+│   │   │   ├── dashboard/
+│   │   │   │   ├── dashboard.component.ts  # stat cards: users, groups, reports, ratings
+│   │   │   │   ├── dashboard.component.html
+│   │   │   │   └── dashboard.component.scss
+│   │   │   │
+│   │   │   ├── users/
+│   │   │   │   ├── users-list/
+│   │   │   │   │   ├── users-list.component.ts   # table: search, paginate, ban, role change
+│   │   │   │   │   ├── users-list.component.html
+│   │   │   │   │   └── users-list.component.scss
+│   │   │   │   └── user-detail/
+│   │   │   │       ├── user-detail.component.ts  # profile, avatar, stats, actions
+│   │   │   │       ├── user-detail.component.html
+│   │   │   │       └── user-detail.component.scss
+│   │   │   │
+│   │   │   ├── groups/
+│   │   │   │   ├── groups-list/
+│   │   │   │   │   ├── groups-list.component.ts
+│   │   │   │   │   ├── groups-list.component.html
+│   │   │   │   │   └── groups-list.component.scss
+│   │   │   │   └── group-detail/
+│   │   │   │       ├── group-detail.component.ts  # members list, delete group
+│   │   │   │       ├── group-detail.component.html
+│   │   │   │       └── group-detail.component.scss
+│   │   │   │
+│   │   │   ├── reports/
+│   │   │   │   └── reports-list/
+│   │   │   │       ├── reports-list.component.ts  # filter by status, mark reviewed/dismissed
+│   │   │   │       ├── reports-list.component.html
+│   │   │   │       └── reports-list.component.scss
+│   │   │   │
+│   │   │   ├── ads/
+│   │   │   │   ├── ads-list/
+│   │   │   │   │   ├── ads-list.component.ts      # toggle active, reorder, delete
+│   │   │   │   │   ├── ads-list.component.html
+│   │   │   │   │   └── ads-list.component.scss
+│   │   │   │   └── ad-form/
+│   │   │   │       ├── ad-form.component.ts       # create / edit ad
+│   │   │   │       ├── ad-form.component.html
+│   │   │   │       └── ad-form.component.scss
+│   │   │   │
+│   │   │   ├── ratings/
+│   │   │   │   └── ratings-list/
+│   │   │   │       ├── ratings-list.component.ts  # view scores + comments
+│   │   │   │       ├── ratings-list.component.html
+│   │   │   │       └── ratings-list.component.scss
+│   │   │   │
+│   │   │   └── app-content/
+│   │   │       └── app-content.component.ts       # edit About + Privacy Policy + App Version
+│   │   │           ├── app-content.component.html
+│   │   │           └── app-content.component.scss
+│   │   │
+│   │   ├── app.component.ts
+│   │   ├── app.config.ts                  # provideRouter, provideHttpClient, interceptors
+│   │   └── app.routes.ts                  # all lazy routes
+│   │
+│   ├── environments/
+│   │   ├── environment.ts                 # { apiUrl: 'http://localhost:3000/api' }
+│   │   └── environment.prod.ts            # { apiUrl: 'https://your-server/api' }
+│   │
+│   └── styles.scss                        # global styles
+│
+├── package.json
+├── tsconfig.json
+└── angular.json

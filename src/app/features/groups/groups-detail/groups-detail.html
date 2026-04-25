@@ -1,0 +1,80 @@
+<app-topbar [title]="group()?.name ?? 'Group Detail'" />
+<div style="margin-bottom:16px"><a routerLink="/groups" class="btn btn-ghost btn-sm">&#8592; Back</a></div>
+
+@if (loading()) { <div class="loading-wrap"><div class="spinner"></div></div> }
+@else if (error()) { <div class="alert alert-error">{{ error() }}</div> }
+@else if (group()) {
+  <!-- Info Card -->
+  <div class="card" style="margin-bottom:20px">
+    <div class="gh" style="align-items:flex-start;gap:16px">
+      <div class="avatar" style="width:56px;height:56px;font-size:22px;flex-shrink:0">
+        {{ group()!.name[0].toUpperCase() }}
+      </div>
+      <div style="flex:1;min-width:0">
+        <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+          <span style="font-size:18px;font-weight:700">{{ group()!.name }}</span>
+          <app-badge [variant]="statusBadge(group()!)">{{ group()!.is_active ? 'Active' : 'Banned' }}</app-badge>
+        </div>
+        <div style="color:var(--text-light);font-size:13px;margin-top:4px">{{ group()!.status }}</div>
+        <div style="color:var(--text-light);font-size:12px;margin-top:4px">
+          Created {{ group()!.created_at | timeAgo }}
+          &nbsp;&bull;&nbsp;
+          {{ group()!.members.length }} member{{ group()!.members.length !== 1 ? 's' : '' }}
+        </div>
+      </div>
+      <!-- Actions -->
+      <div style="display:flex;gap:8px;flex-shrink:0">
+        @if (group()!.is_active) {
+          <button class="btn btn-danger btn-sm" (click)="ask('ban')">Ban Group</button>
+        } @else {
+          <button class="btn btn-success btn-sm" (click)="ask('unban')">Unban Group</button>
+        }
+        <button class="btn btn-ghost btn-sm" style="color:var(--danger)" (click)="ask('delete')">Delete</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Members Table -->
+  <div class="card">
+    <div style="font-weight:600;margin-bottom:12px">Members</div>
+    @if (group()!.members.length === 0) {
+      <div style="color:var(--text-light);text-align:center;padding:24px 0">No members found.</div>
+    } @else {
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Member</th>
+              <th>Phone</th>
+              <th>Role</th>
+            </tr>
+          </thead>
+          <tbody>
+            @for (m of group()!.members; track m.userId) {
+              <tr>
+                <td>
+                  <div style="display:flex;align-items:center;gap:10px">
+                    <div class="avatar">{{ (m.name || '?')[0].toUpperCase() }}</div>
+                    <span>{{ m.name || '—' }}</span>
+                  </div>
+                </td>
+                <td style="color:var(--text-light)">{{ m.phone || '—' }}</td>
+                <td><app-badge [variant]="memberBadge(m.role)">{{ m.role }}</app-badge></td>
+              </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+    }
+  </div>
+}
+
+<!-- Confirm Dialog -->
+@if (confirm()) {
+  <app-confirm-dialog
+    [message]="confirm() === 'ban'    ? 'Ban this group? Members will not be able to send messages.' :
+               confirm() === 'unban'  ? 'Unban this group?' :
+                                        'Delete this group permanently? This cannot be undone.'"
+    (confirm)="doConfirm()"
+    (cancel)="cancelConfirm()" />
+}

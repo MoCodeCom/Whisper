@@ -1,0 +1,6 @@
+.page       { min-height:100vh;display:flex;align-items:center;justify-content:center;background:var(--sidebar-bg); }
+.login-card { width:100%;max-width:400px;padding:40px 36px;box-shadow:var(--shadow-md); }
+.brand      { text-align:center;margin-bottom:28px; }
+.brand-icon { font-size:40px;display:block;margin-bottom:8px; }
+.brand-title{ font-size:24px;font-weight:800;color:var(--text); }
+.brand-sub  { font-size:13px;color:var(--text-light);margin-top:4px; }

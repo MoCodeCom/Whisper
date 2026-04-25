@@ -1,0 +1,53 @@
+<app-topbar [title]="isEdit ? 'Edit Ad' : 'New Ad'" />
+
+<div class="wrap">
+  <div class="card">
+    <h2 style="margin-bottom:24px;font-size:17px;font-weight:700">{{ isEdit ? 'Edit Ad' : 'Create New Ad' }}</h2>
+
+    @if (error()) { <div class="alert alert-error">{{ error() }}</div> }
+
+    @if (loading()) { <div class="loading-wrap"><div class="spinner"></div></div> }
+    @else {
+      <div class="grid">
+        <div class="form-group">
+          <label class="form-label">Title *</label>
+          <input class="form-control" [(ngModel)]="form.title" name="title" placeholder="Ad title" />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Link URL</label>
+          <input class="form-control" [(ngModel)]="form.link_url" name="link_url" placeholder="https://..." />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Button Label</label>
+          <input class="form-control" [(ngModel)]="form.link_label" name="link_label" />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Sort Order</label>
+          <input class="form-control" type="number" [(ngModel)]="form.sort_order" name="sort_order" />
+        </div>
+        <div class="form-group span2">
+          <label class="form-label">Description</label>
+          <textarea class="form-control" [(ngModel)]="form.description" name="description" rows="4"></textarea>
+        </div>
+        <div class="form-group span2">
+          <label class="form-label">Image (optional)</label>
+          @if (imagePreview()) { <img [src]="imagePreview()!" class="preview" alt="preview" /> }
+          <input type="file" accept="image/*" (change)="onImg($event)" />
+        </div>
+        <div class="form-group">
+          <label style="display:flex;align-items:center;gap:8px;cursor:pointer">
+            <input type="checkbox" [(ngModel)]="form.is_active" name="is_active" />
+            <span class="form-label" style="margin:0">Active</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="foot">
+        <a routerLink="/ads" class="btn btn-ghost">Cancel</a>
+        <button class="btn btn-primary" (click)="save()" [disabled]="saving()">
+          {{ saving() ? 'Saving...' : (isEdit ? 'Save Changes' : 'Create Ad') }}
+        </button>
+      </div>
+    }
+  </div>
+</div>

@@ -1,0 +1,49 @@
+<app-topbar title="App Content" subtitle="Edit About, Privacy Policy &amp; App Version" />
+
+<div class="tabs">
+  @for (tab of tabs; track tab.key) {
+    <button class="tab" [class.active]="activeTab() === tab.key" (click)="setTab(tab.key)">
+      {{ tab.icon }} {{ tab.label }}
+    </button>
+  }
+</div>
+
+@if (error())   { <div class="alert alert-error"   style="margin-top:16px">{{ error() }}</div>   }
+@if (success()) { <div class="alert alert-success" style="margin-top:16px">{{ success() }}</div> }
+
+@if (loadingMap()[activeTab()]) {
+  <div class="loading-wrap"><div class="spinner"></div></div>
+} @else {
+  <div class="card body-card">
+    <div class="form-group" style="margin-bottom:16px">
+      <label class="form-label">Title</label>
+      <input class="form-control" [(ngModel)]="data[activeTab()].title" name="title" />
+    </div>
+
+    @if (activeTab() !== 'privacy') {
+      <div class="form-group" style="margin-bottom:16px">
+        <label class="form-label">Version</label>
+        <input class="form-control" [(ngModel)]="data[activeTab()].version" name="version"
+               placeholder="e.g. 1.2.0" style="max-width:200px" />
+      </div>
+    }
+
+    <div class="form-group" style="margin-bottom:24px">
+      <label class="form-label">Content</label>
+      <textarea class="form-control" [(ngModel)]="data[activeTab()].body" name="body" rows="14"
+                placeholder="Full text shown to users in the app..."></textarea>
+    </div>
+
+    @if (data[activeTab()].updatedAt) {
+      <p style="font-size:12px;color:var(--text-light);margin-bottom:16px">
+        Last updated: {{ data[activeTab()].updatedAt | date:'medium' }}
+      </p>
+    }
+
+    <div style="display:flex;justify-content:flex-end">
+      <button class="btn btn-primary btn-lg" (click)="save()" [disabled]="saving()">
+        {{ saving() ? 'Saving...' : 'Save Changes' }}
+      </button>
+    </div>
+  </div>
+}

@@ -1,0 +1,31 @@
+<aside class="sidebar">
+  <div class="brand">
+    <span class="brand-icon">
+      <img src="./whisper.png" alt="whisper_logo" class="logo_img"/>
+    </span>
+    <div>
+      <div class="brand-name">Wisber</div>
+      <div class="brand-sub">Control Panel</div>
+    </div>
+  </div>
+
+  <nav class="nav">
+    @for (item of nav; track item.path) {
+      <a [routerLink]="item.path" routerLinkActive="active" class="nav-item">
+        <span class="nav-icon" [innerHTML]="item.icon"></span>
+        <span>{{ item.label }}</span>
+      </a>
+    }
+  </nav>
+
+  <div class="footer">
+    <div class="admin-row">
+      <div class="admin-av">{{ (auth.admin()?.name || "A")[0].toUpperCase() }}</div>
+      <div class="admin-info">
+        <div class="admin-name">{{ auth.admin()?.name || "Admin" }}</div>
+        <div class="admin-role">{{ auth.admin()?.role || "" }}</div>
+      </div>
+    </div>
+    <button class="logout" (click)="auth.logout()" title="Logout">&#x238B;</button>
+  </div>
+</aside>

@@ -1,0 +1,50 @@
+<app-topbar title="Reports" [subtitle]="total() + ' total'" />
+
+<div class="page-header">
+  <div>
+    <div class="page-title">Reports</div>
+    <div class="page-subtitle">User-submitted reports</div>
+  </div>
+  <select class="form-control" style="width:auto" [ngModel]="filter()" (ngModelChange)="filter.set($event); load()">
+    <option value="">All</option>
+    <option value="pending">Pending</option>
+    <option value="reviewed">Reviewed</option>
+    <option value="dismissed">Dismissed</option>
+  </select>
+</div>
+
+@if (error()) { <div class="alert alert-error">{{ error() }}</div> }
+@if (loading()) { <div class="loading-wrap"><div class="spinner"></div></div> }
+@else {
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Reporter</th><th>Reported</th><th>Reason</th><th>Status</th><th>Date</th><th>Actions</th></tr></thead>
+      <tbody>
+        @for (r of reports(); track r.id) {
+          <tr>
+            <td>{{ r.reporter?.name ?? r.reporter_id }}</td>
+            <td>{{ r.reported?.name ?? r.reported_id }}</td>
+            <td style="max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ r.reason }}</td>
+            <td><app-badge [variant]="badge(r.status)">{{ r.status }}</app-badge></td>
+            <td>{{ r.created_at | timeAgo }}</td>
+            <td>
+              <div class="actions">
+                @if (r.status !== 'reviewed')  { <button class="btn btn-sm btn-success" (click)="ask(r, 'reviewed')">Review</button> }
+                @if (r.status !== 'dismissed') { <button class="btn btn-sm btn-ghost"   (click)="ask(r, 'dismissed')">Dismiss</button> }
+              </div>
+            </td>
+          </tr>
+        } @empty {
+          <tr><td colspan="6"><div class="empty-state"><p>No reports found.</p></div></td></tr>
+        }
+      </tbody>
+    </table>
+  </div>
+}
+
+@if (target()) {
+  <app-confirm-dialog
+    [title]="'Mark as ' + target()!.status"
+    [message]="'Update this report to ' + target()!.status + '?'"
+    (confirm)="doUpdate()" (cancel)="cancel()" />
+}

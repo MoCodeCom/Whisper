@@ -1,0 +1,50 @@
+<app-topbar title="Ads" [subtitle]="ads().length + ' ads'" />
+
+<div class="page-header">
+  <div>
+    <div class="page-title">Ads</div>
+    <div class="page-subtitle">Manage in-app advertisements</div>
+  </div>
+  <a routerLink="/ads/new" class="btn btn-primary">+ New Ad</a>
+</div>
+
+@if (error()) { <div class="alert alert-error">{{ error() }}</div> }
+@if (loading()) { <div class="loading-wrap"><div class="spinner"></div></div> }
+@else {
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Title</th><th>Status</th><th>Sort</th><th>Actions</th></tr></thead>
+      <tbody>
+        @for (ad of ads(); track ad.id) {
+          <tr>
+            <td>
+              <div class="cell">
+                @if (ad.image_url) { <img [src]="ad.image_url" class="thumb" alt="ad" /> }
+                <div>
+                  <div>{{ ad.title }}</div>
+                  @if (ad.link_url) { <div style="font-size:12px;color:var(--text-light)">{{ ad.link_url }}</div> }
+                </div>
+              </div>
+            </td>
+            <td><app-badge [variant]="ad.is_active ? 'success' : 'neutral'">{{ ad.is_active ? 'Active' : 'Inactive' }}</app-badge></td>
+            <td>{{ ad.sort_order }}</td>
+            <td>
+              <div class="actions">
+                <button class="btn btn-sm btn-ghost" (click)="toggle(ad)">{{ ad.is_active ? 'Deactivate' : 'Activate' }}</button>
+                <a [routerLink]="['/ads', ad.id, 'edit']" class="btn btn-sm btn-ghost">Edit</a>
+                <button class="btn btn-sm btn-danger" (click)="askDel(ad)">Delete</button>
+              </div>
+            </td>
+          </tr>
+        } @empty {
+          <tr><td colspan="4"><div class="empty-state"><p>No ads yet.</p></div></td></tr>
+        }
+      </tbody>
+    </table>
+  </div>
+}
+
+@if (delTarget()) {
+  <app-confirm-dialog title="Delete Ad" [message]="'Delete: ' + delTarget()!.title + '?'" [danger]="true"
+    (confirm)="doDel()" (cancel)="cancelDel()" />
+}

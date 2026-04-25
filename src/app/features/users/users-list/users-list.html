@@ -1,0 +1,110 @@
+<app-topbar title="Users" [subtitle]="total() + ' total'" />
+
+<div class="page-header">
+  <div>
+    <div class="page-title">Users</div>
+    <div class="page-subtitle">Manage all registered users</div>
+  </div>
+  <button class="btn btn-primary" (click)="openCreate()">+ New Admin</button>
+</div>
+
+@if (error()) { <div class="alert alert-error">{{ error() }}</div> }
+
+<div class="toolbar">
+  <div class="search-bar">
+    <span class="search-icon">🔍</span>
+    <input class="form-control" placeholder="Search by name or phone..."
+           [ngModel]="search()" (ngModelChange)="search.set($event)" (keyup.enter)="onSearch()" />
+  </div>
+  <button class="btn btn-primary" (click)="onSearch()">Search</button>
+</div>
+
+@if (loading()) { <div class="loading-wrap"><div class="spinner"></div></div> }
+@else {
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>User</th><th>Phone</th><th>Role</th><th>Status</th><th>Joined</th><th>Actions</th></tr>
+      </thead>
+      <tbody>
+        @for (u of users(); track u.id) {
+          <tr>
+            <td><div class="cell"><div class="avatar">{{ u.name[0].toUpperCase() }}</div>{{ u.name }}</div></td>
+            <td>{{ u.phone }}</td>
+            <td><app-badge [variant]="badge(u.role)">{{ u.role }}</app-badge></td>
+            <td><app-badge [variant]="u.is_online ? 'success' : 'neutral'">{{ u.is_online ? 'Online' : 'Offline' }}</app-badge></td>
+            <td>{{ u.created_at | timeAgo }}</td>
+            <td>
+              <div class="actions">
+                @if (u.role !== 'banned') {
+                  <button class="btn btn-sm btn-ghost" (click)="ask('ban', u)">Ban</button>
+                } @else {
+                  <button class="btn btn-sm btn-success" (click)="ask('unban', u)">Unban</button>
+                }
+                <button class="btn btn-sm btn-danger" (click)="ask('delete', u)">Delete</button>
+              </div>
+            </td>
+          </tr>
+        } @empty {
+          <tr><td colspan="6"><div class="empty-state"><p>No users found.</p></div></td></tr>
+        }
+      </tbody>
+    </table>
+    <div class="pagination">
+      <span class="page-info">{{ users().length }} of {{ total() }}</span>
+      <button class="btn btn-sm btn-ghost" [disabled]="page() === 1" (click)="prev()">&#8249; Prev</button>
+      <span style="font-size:13px;color:var(--text-light)">{{ page() }} / {{ pages }}</span>
+      <button class="btn btn-sm btn-ghost" [disabled]="page() >= pages" (click)="next()">Next &#8250;</button>
+    </div>
+  </div>
+}
+
+@if (confirm()) {
+  <app-confirm-dialog
+    [title]="confirm()!.action === 'delete' ? 'Delete User' : confirm()!.action === 'ban' ? 'Ban User' : 'Unban User'"
+    [message]="'Are you sure you want to ' + confirm()!.action + ' ' + confirm()!.user.name + '?'"
+    [danger]="confirm()!.action !== 'unban'"
+    (confirm)="doConfirm()" (cancel)="cancelConfirm()" />
+}
+
+<!-- Create Admin Modal -->
+@if (showCreate()) {
+  <div class="modal-backdrop" (click)="showCreate.set(false)"></div>
+  <div class="modal-box">
+    <div class="modal-header">
+      <span class="modal-title">New Admin Account</span>
+      <button class="btn btn-ghost btn-sm" (click)="showCreate.set(false)">✕</button>
+    </div>
+
+    @if (createError()) {
+      <div class="alert alert-error" style="margin-bottom:16px">{{ createError() }}</div>
+    }
+
+    <div class="form-group">
+      <label class="form-label">Full Name</label>
+      <input class="form-control" placeholder="e.g. John Admin" [(ngModel)]="form.name" />
+    </div>
+    <div class="form-group">
+      <label class="form-label">Phone Number</label>
+      <input class="form-control" placeholder="e.g. 447460726920" [(ngModel)]="form.phone" />
+    </div>
+    <div class="form-group">
+      <label class="form-label">Password</label>
+      <input class="form-control" type="password" placeholder="Min 8 characters" [(ngModel)]="form.password" />
+    </div>
+    <div class="form-group">
+      <label class="form-label">Role</label>
+      <select class="form-control" [(ngModel)]="form.role">
+        <option value="admin">Admin</option>
+        <option value="superadmin">Super Admin</option>
+      </select>
+    </div>
+
+    <div class="modal-footer">
+      <button class="btn btn-ghost" (click)="showCreate.set(false)">Cancel</button>
+      <button class="btn btn-primary" [disabled]="creating()" (click)="submitCreate()">
+        {{ creating() ? 'Creating…' : 'Create Admin' }}
+      </button>
+    </div>
+  </div>
+}
