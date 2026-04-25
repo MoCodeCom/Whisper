@@ -1,0 +1,1696 @@
+[2026-04-16 19:47:10] ERROR: [DB] Connection failed: Access denied for user 'root'@'localhost' (using password: NO)
+[2026-04-16 19:54:37] ERROR: [DB] Connection failed: Access denied for user 'root'@'localhost' (using password: NO)
+[2026-04-17 11:45:12] ERROR: [DB] Connection failed: Access denied for user 'root'@'localhost' (using password: NO)
+[2026-04-17 11:45:36] ERROR: [DB] Connection failed: Access denied for user 'root'@'localhost' (using password: NO)
+[2026-04-17 11:47:21] ERROR: [DB] Connection failed: Access denied for user 'root'@'localhost' (using password: NO)
+[2026-04-17 11:47:49] ERROR: [DB] Connection failed: Unknown database 'wisber'
+[2026-04-17 13:16:03] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.select (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async User.findAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1140:21)
+    at async User.findOne (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1240:12)
+    at async exports.register (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:25:20)
+    at async exports.register (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:4:30)
+[2026-04-17 13:16:14] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.select (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async User.findAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1140:21)
+    at async User.findOne (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1240:12)
+    at async exports.register (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:25:20)
+    at async exports.register (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:4:30)
+[2026-04-17 13:16:53] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.select (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async User.findAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1140:21)
+    at async User.findOne (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1240:12)
+    at async exports.register (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:25:20)
+    at async exports.register (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:4:30)
+[2026-04-17 13:17:38] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.select (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async User.findAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1140:21)
+    at async User.findOne (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1240:12)
+    at async exports.register (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:25:20)
+    at async exports.register (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:4:30)
+[2026-04-17 13:17:47] ERROR: [DB] Connection failed: Unknown database 'wisber'
+[2026-04-17 13:23:51] ERROR: [DB] Connection failed: Unknown database 'wisber'
+[2026-04-17 13:27:37] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.select (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async User.findAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1140:21)
+    at async User.findOne (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1240:12)
+    at async exports.register (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:25:20)
+    at async exports.register (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:4:30)
+[2026-04-17 13:50:56] ERROR: Error: Invalid phone or password
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:9:46)
+    at exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:46:67)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:7:18)
+[2026-04-17 18:36:09] ERROR: Error: Invalid phone or password
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:9:46)
+    at exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:46:67)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:7:18)
+[2026-04-17 18:36:35] ERROR: Error: Invalid phone or password
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:9:46)
+    at exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:46:67)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:7:18)
+[2026-04-17 18:36:41] ERROR: Error: Invalid phone or password
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:9:46)
+    at exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:46:67)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:7:18)
+[2026-04-17 18:48:56] ERROR: Error: Invalid phone or password
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:9:46)
+    at exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:46:67)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:7:18)
+[2026-04-18 10:03:32] ERROR: Error: Invalid phone or password
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:9:46)
+    at exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:46:67)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:7:18)
+[2026-04-18 14:32:45] ERROR: TypeError: Cannot destructure property 'score' of 'undefined' as it is undefined.
+    at exports.rateApp (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\ratings.service.js:21:37)
+    at exports.rateApp (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\ratings.controller.js:4:78)
+    at Layer.handleRequest (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\middleware\validate.js:5:3
+    at Layer.handleRequest (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\router\lib\route.js:157:13)
+    at auth (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\middleware\auth.js:6:46)
+    at Layer.handleRequest (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\router\lib\route.js:157:13)
+[2026-04-18 14:35:51] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.insert (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:2490:35)
+    at async Rating.create (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1362:12)
+    at async exports.rateApp (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\ratings.service.js:30:5)
+    at async exports.rateApp (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\ratings.controller.js:4:68)
+[2026-04-18 14:37:44] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.insert (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:2490:35)
+    at async Rating.create (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1362:12)
+    at async exports.rateApp (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\ratings.service.js:30:5)
+    at async exports.rateApp (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\ratings.controller.js:4:68)
+[2026-04-18 14:42:56] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.insert (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:2490:35)
+    at async Rating.create (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1362:12)
+    at async C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\ratings.service.js:39:7
+    at async C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:507:18
+    at async exports.rateApp (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\ratings.service.js:26:3)
+    at async exports.rateApp (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\ratings.controller.js:4:68)
+[2026-04-18 14:44:22] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.insert (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:2490:35)
+    at async Rating.create (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1362:12)
+    at async C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\ratings.service.js:39:7
+    at async C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:507:18
+    at async exports.rateApp (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\ratings.service.js:26:3)
+    at async exports.rateApp (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\ratings.controller.js:4:68)
+[2026-04-18 14:50:00] ERROR: [DB] Sync failed: Referencing column 'rater_id' and referenced column 'id' in foreign key constraint 'ratings_ibfk_1' are incompatible.
+[2026-04-18 14:52:24] ERROR: [DB] Sync failed: Referencing column 'sender_id' and referenced column 'id' in foreign key constraint 'pending_messages_ibfk_1' are incompatible.
+[2026-04-18 14:54:05] ERROR: [DB] Sync failed: Referencing column 'sender_id' and referenced column 'id' in foreign key constraint 'pending_messages_ibfk_1' are incompatible.
+[2026-04-18 14:55:11] ERROR: [DB] Sync failed: Referencing column 'sender_id' and referenced column 'id' in foreign key constraint 'pending_messages_ibfk_1' are incompatible.
+[2026-04-18 14:55:49] ERROR: [DB] Sync failed: Referencing column 'sender_id' and referenced column 'id' in foreign key constraint 'pending_messages_ibfk_1' are incompatible.
+[2026-04-18 14:58:12] ERROR: Error: Invalid phone or password
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:9:46)
+    at exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:46:67)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:7:18)
+[2026-04-18 15:06:22] ERROR: Error: Invalid phone or password
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:9:46)
+    at exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:45:57)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:7:18)
+[2026-04-18 20:10:31] ERROR: Error: Invalid phone or password
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:9:46)
+    at exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:46:67)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:7:18)
+[2026-04-18 20:23:28] ERROR: Error: Invalid phone or password
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:9:46)
+    at exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:46:67)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:7:18)
+[2026-04-19 10:40:07] ERROR: Error: Invalid phone or password
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:9:46)
+    at exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:45:57)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:7:18)
+[2026-04-19 10:41:29] ERROR: Error: Invalid phone or password
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:9:46)
+    at exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:45:57)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:7:18)
+[2026-04-19 10:42:37] ERROR: Error: Phone already registered
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:9:46)
+    at exports.register (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:26:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.register (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:4:30)
+[2026-04-19 10:56:43] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-19 10:58:08] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-19 10:58:49] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-19 10:58:58] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-19 10:59:13] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-19 11:19:07] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-19 11:19:30] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-19 11:19:54] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-19 11:20:07] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-19 11:20:15] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-19 11:20:52] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-19 11:21:13] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-19 11:25:02] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-19 11:30:51] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-19 11:34:25] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-19 11:39:25] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-19 11:39:36] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-19 13:43:45] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-19 14:14:44] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-19 14:18:26] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-19 14:21:28] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-19 14:25:44] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-19 14:31:11] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-19 14:48:09] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-19 19:07:34] ERROR: Error: Invalid verification code.
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:13:46)
+    at exports.verifyOtpAndRegister (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:58:42)
+    at exports.verifyOtpAndRegister (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:10:40)
+    at Layer.handleRequest (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\middleware\validate.js:8:3
+    at Layer.handleRequest (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\express-rate-limit\dist\index.cjs:958:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+[2026-04-19 19:30:30] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-20 13:30:14] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-20 13:37:12] ERROR: [Startup] Failed: Too many keys specified; max 64 keys allowed
+[2026-04-20 13:37:17] ERROR: [Startup] Failed: Too many keys specified; max 64 keys allowed
+[2026-04-20 13:37:50] ERROR: [Startup] Failed: Too many keys specified; max 64 keys allowed
+[2026-04-20 13:37:54] ERROR: [Startup] Failed: Too many keys specified; max 64 keys allowed
+[2026-04-20 13:44:07] ERROR: [Startup] Failed: Too many keys specified; max 64 keys allowed
+[2026-04-20 14:23:26] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-20 14:23:29] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-20 14:23:34] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-20 14:23:39] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-20 14:23:40] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-20 14:23:46] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-20 14:23:52] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-20 14:23:57] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-21 12:03:34] ERROR: Error: Invalid phone or password
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:19:46)
+    at exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:130:67)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:19:18)
+[2026-04-21 12:27:46] ERROR: [MessageHandler] Failed to store pending message: Data truncated for column 'message_type' at row 1
+[2026-04-21 16:07:27] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-21 16:09:07] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-21 16:10:51] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-21 16:10:58] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-21 16:18:03] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-21 16:39:54] ERROR: [MessageHandler] Failed to store pending message: Data truncated for column 'message_type' at row 1
+[2026-04-21 16:40:13] ERROR: [MessageHandler] Failed to store pending message: Data truncated for column 'message_type' at row 1
+[2026-04-21 16:41:16] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-21 16:43:43] ERROR: [MessageHandler] Failed to store pending message: Data truncated for column 'message_type' at row 1
+[2026-04-21 16:43:53] ERROR: [MessageHandler] Failed to store pending message: Data truncated for column 'message_type' at row 1
+[2026-04-21 16:44:08] ERROR: [MessageHandler] Failed to store pending message: Data truncated for column 'message_type' at row 1
+[2026-04-21 16:49:20] ERROR: [MessageHandler] Failed to store pending message: Data truncated for column 'message_type' at row 1
+[2026-04-21 16:51:50] ERROR: [MessageHandler] Failed to store pending message: Data truncated for column 'message_type' at row 1
+[2026-04-21 17:08:43] ERROR: [MessageHandler] Failed to store pending message: Data truncated for column 'message_type' at row 1
+[2026-04-21 17:40:36] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:10:18)
+[2026-04-22 09:05:20] ERROR: Error: Invalid phone or password
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:19:46)
+    at exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:130:67)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:19:18)
+[2026-04-22 09:10:01] ERROR: Error: Invalid phone or password
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:19:46)
+    at exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:130:67)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:19:18)
+[2026-04-22 10:10:14] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:11:18)
+[2026-04-22 10:15:19] ERROR: [MessageHandler] Failed to store pending message: Data truncated for column 'message_type' at row 1
+[2026-04-22 12:11:47] ERROR: [MessageHandler] Failed to store pending message: Data truncated for column 'message_type' at row 1
+[2026-04-22 12:21:33] ERROR: [MessageHandler] Failed to store pending message: Data truncated for column 'message_type' at row 1
+[2026-04-22 12:21:45] ERROR: [MessageHandler] Failed to store pending message: Data truncated for column 'message_type' at row 1
+[2026-04-23 12:55:05] ERROR: Error: Invalid phone or password
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:19:46)
+    at exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:129:57)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:19:18)
+[2026-04-23 14:17:21] ERROR: [MessageHandler] Failed to store pending message: Data truncated for column 'message_type' at row 1
+[2026-04-23 14:18:44] ERROR: Error: Invalid phone or password
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:19:46)
+    at exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:130:67)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:19:18)
+[2026-04-23 14:21:07] ERROR: [MessageHandler] Failed to store pending message: Data truncated for column 'message_type' at row 1
+[2026-04-23 14:26:21] ERROR: Error: Invalid phone or password
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:19:46)
+    at exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:130:67)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:19:18)
+[2026-04-23 14:51:29] ERROR: [MessageHandler] Failed to store pending message: Data truncated for column 'message_type' at row 1
+[2026-04-24 09:56:15] ERROR: [MessageHandler] Failed to store pending message: Data truncated for column 'message_type' at row 1
+[2026-04-24 09:56:16] ERROR: [GroupMessageHandler] storePendingGroupMessage error: Data truncated for column 'message_type' at row 1
+[2026-04-24 09:56:16] ERROR: [GroupMessageHandler] storePendingGroupMessage error: Data truncated for column 'message_type' at row 1
+[2026-04-24 10:23:29] ERROR: Error: Invalid phone or password
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:19:46)
+    at exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:130:67)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:19:18)
+[2026-04-24 10:24:11] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:11:18)
+[2026-04-24 10:25:57] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:11:18)
+[2026-04-24 10:33:42] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:11:18)
+[2026-04-24 10:37:38] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:11:18)
+[2026-04-24 14:30:34] ERROR: [Startup] Failed: BLOB, TEXT, GEOMETRY or JSON column 'body' can't have a default value
+[2026-04-24 14:30:38] ERROR: [Startup] Failed: BLOB, TEXT, GEOMETRY or JSON column 'body' can't have a default value
+[2026-04-24 14:30:41] ERROR: [Startup] Failed: BLOB, TEXT, GEOMETRY or JSON column 'body' can't have a default value
+[2026-04-24 14:30:58] ERROR: [Startup] Failed: BLOB, TEXT, GEOMETRY or JSON column 'body' can't have a default value
+[2026-04-24 14:31:06] ERROR: [Startup] Failed: BLOB, TEXT, GEOMETRY or JSON column 'body' can't have a default value
+[2026-04-24 14:38:32] ERROR: [Startup] Failed: BLOB, TEXT, GEOMETRY or JSON column 'body' can't have a default value
+[2026-04-24 14:39:13] ERROR: [Startup] Failed: BLOB, TEXT, GEOMETRY or JSON column 'body' can't have a default value
+[2026-04-24 14:54:22] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:11:18)
+[2026-04-24 14:59:21] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:11:18)
+[2026-04-24 14:59:37] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:11:18)
+[2026-04-24 15:00:13] ERROR: Error: Invalid phone or password
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:19:46)
+    at exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:129:57)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:19:18)
+[2026-04-24 17:38:31] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:11:18)
+[2026-04-24 17:43:58] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:11:18)
+[2026-04-24 17:53:46] ERROR: Error: User not found
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:4:39)
+    at exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\users.service.js:28:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.getProfile (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\users.controller.js:11:18)
+[2026-04-25 08:48:57] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:10:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 08:49:44] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:10:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 08:49:47] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:10:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 08:49:54] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:10:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 08:49:59] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:10:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 08:50:08] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:10:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 08:51:53] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:10:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 08:51:57] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 08:51:59] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 08:52:58] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 09:44:04] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 09:45:11] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 09:45:25] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 09:46:10] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 09:46:59] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 09:50:32] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 09:50:34] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 09:50:37] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 09:50:45] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 09:52:46] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 09:57:43] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 09:57:44] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 09:57:45] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 09:57:46] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 09:57:59] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 09:59:48] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:00:02] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:00:06] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:00:30] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:02:05] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:02:06] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:02:07] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:02:28] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:02:37] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:02:49] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:02:51] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:02:51] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:02:52] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:02:52] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:02:52] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:02:52] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:03:23] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:03:24] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:03:24] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:03:24] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:03:25] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:03:25] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:03:25] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:03:36] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:05:50] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:05:57] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:06:41] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:07:35] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:10:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:07:36] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:10:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:07:37] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:10:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:07:37] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:10:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:07:37] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:10:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:07:37] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:10:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:07:58] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:10:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:07:59] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:10:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:08:00] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:10:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:08:00] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:10:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:08:42] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:09:36] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:09:37] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:09:38] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:09:39] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:10:18] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:10:20] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:10:26] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:12:47] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:14:04] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:14:05] ERROR: Error: Invalid credentials
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:6:39)
+    at exports.adminLogin (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\dashboard.service.js:11:68)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\dashboard.controller.js:3:63)
+[2026-04-25 10:17:02] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.select (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Rating.findAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1140:21)
+    at async Promise.all (index 1)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:18:50] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:18:53] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:18:54] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:18:54] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:19:30] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:19:34] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.select (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Rating.findAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1140:21)
+    at async Promise.all (index 1)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:21:28] ERROR: Error: Account banned
+    at err (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:19:46)
+    at exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\mobile_modules\auth.service.js:131:57)
+    at async exports.login (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\mobile_controllers\auth.controller.js:19:18)
+[2026-04-25 10:24:21] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:24:37] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:25:02] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:27:43] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:28:47] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:29:18] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:29:35] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:29:39] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.select (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Rating.findAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1140:21)
+    at async Promise.all (index 1)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:31:09] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:31:19] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:32:19] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:32:21] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:32:22] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:32:22] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:32:23] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:32:24] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:33:21] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:33:23] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:33:54] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:33:55] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:34:02] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:34:50] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.select (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Rating.findAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1140:21)
+    at async Promise.all (index 1)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:34:55] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:36:24] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:36:26] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:37:12] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:37:21] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:37:22] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:37:23] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:37:44] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:37:45] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.select (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Rating.findAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1140:21)
+    at async Promise.all (index 1)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:37:45] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:37:45] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:38:52] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:38:54] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.select (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Rating.findAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1140:21)
+    at async Promise.all (index 1)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:38:54] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:39:33] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:40:18] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:40:19] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:40:19] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:40:20] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:40:24] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:40:26] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:40:26] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:40:54] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:40:55] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:40:55] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:40:56] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:41:40] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:41:42] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:41:44] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:41:44] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:41:45] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:41:45] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:41:45] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:41:46] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:41:46] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:45:40] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:45:41] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:45:41] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:48:16] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:48:17] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:48:17] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:48:18] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:48:18] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:48:18] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
+[2026-04-25 10:48:18] ERROR: Error
+    at Query.run (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async MySQLQueryInterface.rawSelect (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:434:18)
+    at async Rating.aggregate (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1277:19)
+    at async Rating.count (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1306:20)
+    at async Promise.all (index 0)
+    at async Rating.findAndCountAll (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\node_modules\sequelize\lib\model.js:1322:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\modules\cp_modules\ratings.service.js:5:27)
+    at async exports.listRatings (C:\Users\moham\Desktop\Alfa Project\Aman app\backend\src\controllers\cp_controllers\ratings.controller.js:3:67)
+  MySQL: Illegal mix of collations (utf8mb4_0900_ai_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '='
