@@ -34,6 +34,11 @@ const runMigrations = async () => {
     { sql: 'ALTER TABLE ratings MODIFY COLUMN rated_id CHAR(36) NULL DEFAULT NULL', label: 'ratings.rated_id nullable' },
     { sql: "ALTER TABLE `groups` ADD COLUMN status VARCHAR(150) DEFAULT 'A new group on Wisber!'", label: 'groups.status' },
     { sql: "ALTER TABLE `groups` ADD COLUMN is_active TINYINT(1) NOT NULL DEFAULT 1",              label: 'groups.is_active' },
+
+    // ── media: permanent flag + expiry for auto-cleanup ───────────────────
+    { sql: 'ALTER TABLE media ADD COLUMN is_permanent TINYINT(1) NOT NULL DEFAULT 0',  label: 'media.is_permanent' },
+    { sql: 'ALTER TABLE media ADD COLUMN expires_at DATETIME NULL DEFAULT NULL',        label: 'media.expires_at' },
+    { sql: 'ALTER TABLE media ADD INDEX idx_media_expires_at (expires_at)',             label: 'media.expires_at index' },
   ];
 
   for (const { sql, label } of steps) {
@@ -83,7 +88,8 @@ const start = async () => {
     });
     logger.info('[DB] app_content seeded');
 
-    // 4. Daily cleanup: delete expired pending messages (1-to-1 and group)
+    // 4. Daily cleanup: delete expired pending messages (1-to-1 and group) + orphaned media
+    const { cleanExpiredMedia } = require('./src/modules/mobile_modules/media.service');
     const runCleanup = async () => {
       try {
         const deleted = await PendingMessage.destroy({
@@ -95,6 +101,9 @@ const start = async () => {
           where: { expires_at: { [Op.lt]: new Date() } },
         });
         if (deletedGroup > 0) logger.info(`[Cleanup] Removed ${deletedGroup} expired pending group message(s)`);
+
+        const deletedMedia = await cleanExpiredMedia();
+        if (deletedMedia > 0) logger.info(`[Cleanup] Removed ${deletedMedia} expired media file(s)`);
       } catch (e) {
         logger.error('[Cleanup] Failed: ' + e.message);
       }

@@ -24,9 +24,10 @@ const uploadDocument = multer({
   fileFilter: (_req, file, cb) => cb(null, true), // accept all file types
 });
 
-router.post('/upload',          auth, upload.single('image'),             controller.uploadImage);
-router.post('/upload-audio',    auth, uploadAudio.single('audio'),        controller.uploadImage);
-router.post('/upload-document', auth, uploadDocument.single('document'),  controller.uploadImage);
-router.post('/:id/confirm',     auth,                                      controller.confirmMedia);
+router.post('/upload',           auth, upload.single('image'),            controller.uploadImage);
+router.post('/upload-permanent', auth, upload.single('image'),            controller.uploadPermanent);
+router.post('/upload-audio',     auth, uploadAudio.single('audio'),       controller.uploadImage);
+router.post('/upload-document',  auth, uploadDocument.single('document'), controller.uploadImage);
+router.post('/:id/confirm',      auth,                                     controller.confirmMedia);
 
 module.exports = router;
