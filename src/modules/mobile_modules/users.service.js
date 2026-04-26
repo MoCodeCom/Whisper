@@ -1,5 +1,9 @@
-const { User } = require('../../models');
-const { Op }   = require('sequelize');
+const { User, Media } = require('../../models');
+const { Op }          = require('sequelize');
+const path            = require('path');
+const fs              = require('fs');
+
+const UPLOAD_DIR = path.join(process.cwd(), 'uploads');
 
 const err = (msg, s) => Object.assign(new Error(msg), { status: s });
 
@@ -66,6 +70,26 @@ exports.deleteAccount = async (userId) => {
   await user.destroy();
 };
 
+/** Delete an avatar file from disk and its Media record, if it exists. */
+const deleteOldAvatar = async (avatarUrl) => {
+  if (!avatarUrl) return;
+  try {
+    const media = await Media.findOne({ where: { url: avatarUrl } });
+    if (media) {
+      const filePath = path.join(UPLOAD_DIR, path.basename(media.url));
+      if (fs.existsSync(filePath)) fs.unlinkSync(filePath);
+      await media.destroy();
+    } else {
+      // No Media record — delete the file directly
+      const filePath = path.join(UPLOAD_DIR, path.basename(avatarUrl));
+      if (fs.existsSync(filePath)) fs.unlinkSync(filePath);
+    }
+  } catch (e) {
+    // Non-critical — log but don't block the profile update
+    console.warn('[users.service] Could not delete old avatar:', e.message);
+  }
+};
+
 exports.updateProfile = async (userId, data) => {
   const MAP = {
     name           : 'name',
@@ -82,6 +106,13 @@ exports.updateProfile = async (userId, data) => {
     if (MAP[k]) updates[MAP[k]] = v;
   }
   if (Object.keys(updates).length) {
+    // If the avatar is changing, delete the old file from uploads/
+    if ('avatar_url' in updates) {
+      const current = await User.findByPk(userId, { attributes: ['avatar_url'] });
+      if (current?.avatar_url && current.avatar_url !== updates.avatar_url) {
+        await deleteOldAvatar(current.avatar_url);
+      }
+    }
     await User.update(updates, { where: { id: userId } });
   }
   return exports.getProfile(userId, true); // own profile — no masking

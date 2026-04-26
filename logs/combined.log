@@ -4165,3 +4165,92 @@
 [2026-04-26 12:14:23] INFO: [Socket] Connected: a7f8f1a1-12fb-40bf-9d60-41840f890fd0
 [2026-04-26 12:28:54] INFO: [Socket] Disconnected: a7f8f1a1-12fb-40bf-9d60-41840f890fd0
 [2026-04-26 12:28:59] INFO: [Socket] Disconnected: ef824feb-7931-4237-b328-b985473fbf2a
+[2026-04-26 18:15:55] INFO: [DB] Sequelize connected to MySQL
+[2026-04-26 18:15:55] INFO: [Migration] Already applied: drop ratings_ibfk_1
+[2026-04-26 18:15:55] INFO: [Migration] Already applied: drop ratings_ibfk_2
+[2026-04-26 18:15:55] INFO: [Migration] Already applied: drop pm_ibfk_1
+[2026-04-26 18:15:55] INFO: [Migration] Already applied: drop pm_ibfk_2
+[2026-04-26 18:15:55] INFO: [Migration] OK: ratings.rated_id nullable
+[2026-04-26 18:15:55] WARN: [Migration] Skipped "groups.status": Duplicate column name 'status'
+[2026-04-26 18:15:55] WARN: [Migration] Skipped "groups.is_active": Duplicate column name 'is_active'
+[2026-04-26 18:15:55] WARN: [Migration] Skipped "media.is_permanent": Duplicate column name 'is_permanent'
+[2026-04-26 18:15:55] WARN: [Migration] Skipped "media.expires_at": Duplicate column name 'expires_at'
+[2026-04-26 18:15:55] WARN: [Migration] Skipped "media.expires_at index": Duplicate key name 'idx_media_expires_at'
+[2026-04-26 18:15:55] INFO: [DB] All tables synced
+[2026-04-26 18:15:55] INFO: [DB] app_content seeded
+[2026-04-26 18:15:55] INFO: Wisber backend running on port 3000
+[2026-04-26 18:16:22] INFO: [Socket] Connected: ef824feb-7931-4237-b328-b985473fbf2a
+[2026-04-26 18:16:39] INFO: [Socket] Disconnected: ef824feb-7931-4237-b328-b985473fbf2a
+[2026-04-26 18:17:55] INFO: [Socket] Connected: ef824feb-7931-4237-b328-b985473fbf2a
+[2026-04-26 18:18:03] INFO: [Socket] Connected: ef824feb-7931-4237-b328-b985473fbf2a
+[2026-04-26 18:18:11] INFO: [Socket] Disconnected: ef824feb-7931-4237-b328-b985473fbf2a
+[2026-04-26 18:18:40] INFO: [Socket] Connected: a7f8f1a1-12fb-40bf-9d60-41840f890fd0
+[2026-04-26 18:21:30] INFO: [Socket] Disconnected: ef824feb-7931-4237-b328-b985473fbf2a
+[2026-04-26 18:21:36] INFO: [Socket] Connected: ef824feb-7931-4237-b328-b985473fbf2a
+[2026-04-26 18:21:36] INFO: [Socket] Delivered 3 pending message(s) to ef824feb-7931-4237-b328-b985473fbf2a
+[2026-04-26 18:24:43] INFO: [Socket] Disconnected: ef824feb-7931-4237-b328-b985473fbf2a
+[2026-04-26 18:24:47] INFO: [Socket] Disconnected: a7f8f1a1-12fb-40bf-9d60-41840f890fd0
+[2026-04-26 18:24:58] INFO: [Socket] Connected: a7f8f1a1-12fb-40bf-9d60-41840f890fd0
+[2026-04-26 18:25:01] INFO: [Socket] Connected: ef824feb-7931-4237-b328-b985473fbf2a
+[2026-04-26 18:33:56] INFO: [Socket] Disconnected: a7f8f1a1-12fb-40bf-9d60-41840f890fd0
+[2026-04-26 18:35:11] INFO: [Socket] Connected: ef824feb-7931-4237-b328-b985473fbf2a
+[2026-04-26 18:35:49] INFO: [Socket] Disconnected: ef824feb-7931-4237-b328-b985473fbf2a
+[2026-04-26 18:36:16] INFO: [Socket] Connected: a7f8f1a1-12fb-40bf-9d60-41840f890fd0
+[2026-04-26 18:36:16] INFO: [Socket] Delivered 4 pending message(s) to a7f8f1a1-12fb-40bf-9d60-41840f890fd0
+[2026-04-26 18:37:25] INFO: [DB] Sequelize connected to MySQL
+[2026-04-26 18:37:25] INFO: [Migration] Already applied: drop ratings_ibfk_1
+[2026-04-26 18:37:25] INFO: [Migration] Already applied: drop ratings_ibfk_2
+[2026-04-26 18:37:25] INFO: [Migration] Already applied: drop pm_ibfk_1
+[2026-04-26 18:37:25] INFO: [Migration] Already applied: drop pm_ibfk_2
+[2026-04-26 18:37:25] INFO: [Migration] OK: ratings.rated_id nullable
+[2026-04-26 18:37:25] WARN: [Migration] Skipped "groups.status": Duplicate column name 'status'
+[2026-04-26 18:37:25] WARN: [Migration] Skipped "groups.is_active": Duplicate column name 'is_active'
+[2026-04-26 18:37:25] WARN: [Migration] Skipped "media.is_permanent": Duplicate column name 'is_permanent'
+[2026-04-26 18:37:25] WARN: [Migration] Skipped "media.expires_at": Duplicate column name 'expires_at'
+[2026-04-26 18:37:25] WARN: [Migration] Skipped "media.expires_at index": Duplicate key name 'idx_media_expires_at'
+[2026-04-26 18:37:25] INFO: [DB] All tables synced
+[2026-04-26 18:37:25] INFO: [DB] app_content seeded
+[2026-04-26 18:37:25] INFO: Wisber backend running on port 3000
+[2026-04-26 18:37:26] INFO: [Socket] Connected: a7f8f1a1-12fb-40bf-9d60-41840f890fd0
+[2026-04-26 18:37:26] INFO: [Socket] Connected: ef824feb-7931-4237-b328-b985473fbf2a
+[2026-04-26 18:37:29] INFO: [Socket] Disconnected: a7f8f1a1-12fb-40bf-9d60-41840f890fd0
+[2026-04-26 18:37:32] INFO: [Socket] Disconnected: ef824feb-7931-4237-b328-b985473fbf2a
+[2026-04-26 18:42:03] INFO: [Socket] Connected: a7f8f1a1-12fb-40bf-9d60-41840f890fd0
+[2026-04-26 18:42:05] INFO: [Socket] Connected: ef824feb-7931-4237-b328-b985473fbf2a
+[2026-04-26 18:48:24] INFO: [Socket] Disconnected: ef824feb-7931-4237-b328-b985473fbf2a
+[2026-04-26 18:57:01] INFO: [Socket] Disconnected: a7f8f1a1-12fb-40bf-9d60-41840f890fd0
+[2026-04-26 19:03:16] INFO: [Socket] Connected: ef824feb-7931-4237-b328-b985473fbf2a
+[2026-04-26 19:03:37] INFO: [Socket] Connected: a7f8f1a1-12fb-40bf-9d60-41840f890fd0
+[2026-04-26 19:03:37] INFO: [Socket] Delivered 1 pending message(s) to a7f8f1a1-12fb-40bf-9d60-41840f890fd0
+[2026-04-26 19:06:48] INFO: [DB] Sequelize connected to MySQL
+[2026-04-26 19:06:48] INFO: [Migration] Already applied: drop ratings_ibfk_1
+[2026-04-26 19:06:48] INFO: [Migration] Already applied: drop ratings_ibfk_2
+[2026-04-26 19:06:48] INFO: [Migration] Already applied: drop pm_ibfk_1
+[2026-04-26 19:06:48] INFO: [Migration] Already applied: drop pm_ibfk_2
+[2026-04-26 19:06:48] INFO: [Migration] OK: ratings.rated_id nullable
+[2026-04-26 19:06:48] WARN: [Migration] Skipped "groups.status": Duplicate column name 'status'
+[2026-04-26 19:06:48] WARN: [Migration] Skipped "groups.is_active": Duplicate column name 'is_active'
+[2026-04-26 19:06:48] WARN: [Migration] Skipped "media.is_permanent": Duplicate column name 'is_permanent'
+[2026-04-26 19:06:48] WARN: [Migration] Skipped "media.expires_at": Duplicate column name 'expires_at'
+[2026-04-26 19:06:48] WARN: [Migration] Skipped "media.expires_at index": Duplicate key name 'idx_media_expires_at'
+[2026-04-26 19:06:48] INFO: [DB] All tables synced
+[2026-04-26 19:06:48] INFO: [DB] app_content seeded
+[2026-04-26 19:06:48] INFO: Wisber backend running on port 3000
+[2026-04-26 19:06:48] INFO: [Socket] Connected: ef824feb-7931-4237-b328-b985473fbf2a
+[2026-04-26 19:06:48] INFO: [Socket] Connected: a7f8f1a1-12fb-40bf-9d60-41840f890fd0
+[2026-04-26 19:07:00] INFO: [DB] Sequelize connected to MySQL
+[2026-04-26 19:07:00] INFO: [Migration] Already applied: drop ratings_ibfk_1
+[2026-04-26 19:07:00] INFO: [Migration] Already applied: drop ratings_ibfk_2
+[2026-04-26 19:07:00] INFO: [Migration] Already applied: drop pm_ibfk_1
+[2026-04-26 19:07:00] INFO: [Migration] Already applied: drop pm_ibfk_2
+[2026-04-26 19:07:00] INFO: [Migration] OK: ratings.rated_id nullable
+[2026-04-26 19:07:00] WARN: [Migration] Skipped "groups.status": Duplicate column name 'status'
+[2026-04-26 19:07:00] WARN: [Migration] Skipped "groups.is_active": Duplicate column name 'is_active'
+[2026-04-26 19:07:00] WARN: [Migration] Skipped "media.is_permanent": Duplicate column name 'is_permanent'
+[2026-04-26 19:07:00] WARN: [Migration] Skipped "media.expires_at": Duplicate column name 'expires_at'
+[2026-04-26 19:07:00] WARN: [Migration] Skipped "media.expires_at index": Duplicate key name 'idx_media_expires_at'
+[2026-04-26 19:07:00] INFO: [DB] All tables synced
+[2026-04-26 19:07:00] INFO: [DB] app_content seeded
+[2026-04-26 19:07:00] INFO: Wisber backend running on port 3000
+[2026-04-26 19:07:00] INFO: [Socket] Connected: ef824feb-7931-4237-b328-b985473fbf2a
+[2026-04-26 19:07:00] INFO: [Socket] Connected: a7f8f1a1-12fb-40bf-9d60-41840f890fd0
